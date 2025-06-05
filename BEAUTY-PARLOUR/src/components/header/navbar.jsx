@@ -3,7 +3,7 @@ const Navbar = () => {
     <>
       <div className="">
         <div className="w-full flex bg-black h-[55px] items-center justify-around">
-          <ul className="flex text-white justify-around gap-15">
+          <ul className="flex text-white justify-around gap-15 text-nowrap">
             <li>SERVICES</li>
             <li>BRIDAL</li>
             <li>SHOP PRODUCTS</li>
