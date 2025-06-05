@@ -1,4 +1,9 @@
 @import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+}
+
 /* 
 #root {
   max-width: 1280px;
