@@ -2,7 +2,8 @@ const Service = () => {
     return (
         <>
             <main className="bg-[#e2e2e2] flex flex-col items-center">
-                <div className="pt-5">
+                <div className="container flex justify-center flex-col items-center">
+                     <div className="pt-5">
                     <h2 className="flex justify-center text-4xl text-bold font-[800] tracking-wider">TRENDSETTING SERVICES</h2>
                     <div className="flex justify-center pt-4">
                         <div className="bg-red-500 w-[35px] h-[10px]"></div>
@@ -32,6 +33,8 @@ const Service = () => {
                         <h3 className="text-red-600 text-center text-lg font-bold py-4 ">Everyday Glam Makeup</h3>
                     </div>
                 </div>
+                </div>
+               
             </main>
         </>
     );
