@@ -6,20 +6,22 @@ import Navbar from './components/header/navbar'
 import SimpleSlider from './components/header/slider'
 import Service from './components/main/service'
 import Trending from './components/Trending/Trending'
+import ServiceDetail from './components/ServiceDetail/ServiceDetail'
 
-function App() {
+function IndexPage() {
 
   return (
     <>
     <Header/>
     <Navbar/>
-    <SimpleSlider/>
+    <ServiceDetail/>
+    {/* <SimpleSlider/>
     <Service/>
     <Trending/>
-    <GiftCard/>
+    <GiftCard/> */}
     <Footer/>
     </>
   )
 }
 
-export default App
+export default IndexPage
