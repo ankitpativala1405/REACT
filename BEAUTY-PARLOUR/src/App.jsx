@@ -1,4 +1,5 @@
 import './App.css'
+import BridalMain from './components/BridalDetail/BridalMain'
 import GiftCard from './components/card/GiftCard'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
@@ -15,11 +16,12 @@ function IndexPage() {
     <>
     <Header/>
     <Navbar/>
-    <ServiceDetailMain/>
+    {/* <ServiceDetailMain/> */}
     {/* <SimpleSlider/>
     <Service/>
     <Trending/>
     <GiftCard/> */}
+    <BridalMain/>
     <Footer/>
     </>
   )
