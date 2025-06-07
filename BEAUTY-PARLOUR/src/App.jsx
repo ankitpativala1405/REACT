@@ -1,4 +1,6 @@
 import './App.css'
+import GiftCard from './components/card/GiftCard'
+import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Navbar from './components/header/navbar'
 import SimpleSlider from './components/header/slider'
@@ -14,6 +16,8 @@ function App() {
     <SimpleSlider/>
     <Service/>
     <Trending/>
+    <GiftCard/>
+    <Footer/>
     </>
   )
 }
