@@ -5,8 +5,8 @@ import Header from './components/header/Header'
 import Navbar from './components/header/navbar'
 import SimpleSlider from './components/header/slider'
 import Service from './components/main/service'
+import ServiceDetailMain from './components/ServiceDetail/ServiceDetailMain'
 import Trending from './components/Trending/Trending'
-import ServiceDetail from './components/ServiceDetail/ServiceDetail'
 
 
 function IndexPage() {
@@ -15,7 +15,7 @@ function IndexPage() {
     <>
     <Header/>
     <Navbar/>
-    <ServiceDetail/>
+    <ServiceDetailMain/>
     {/* <SimpleSlider/>
     <Service/>
     <Trending/>
