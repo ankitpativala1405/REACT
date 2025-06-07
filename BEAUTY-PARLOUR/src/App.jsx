@@ -8,6 +8,7 @@ import Service from './components/main/service'
 import Trending from './components/Trending/Trending'
 import ServiceDetail from './components/ServiceDetail/ServiceDetail'
 
+
 function IndexPage() {
 
   return (

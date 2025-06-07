@@ -15,14 +15,13 @@ const ServiceDetail = () => {
       <div className="container mx-auto px-4 py-8 ">
         <div className="container mx-22 flex flex-row justify-between">
           <div>
-            <h2 className="text-2xl font-semibold mb-4">Our Categories</h2>
             <ul className="list-disc list-inside space-y-2 text-lg">
-              <li>Skin</li>
-              <li>Hair</li>
-              <li>Makeup</li>
-              <li>Hands & Feet</li>
-              <li>Services - Men</li>
-              <li>Services - Women</li>
+              <li className="flex items-center justify-between mb-0"><li className="font-black text-[1.5rem]">Skin </li><i className="fa-solid fa-greater-than"></i></li><hr className="m-0 p-0 text-gray-400"/>
+              <li className="flex items-center justify-between mb-0"><li className="font-black text-[1.5rem]">Hair</li><i className="fa-solid fa-greater-than"></i></li><hr className="m-0 p-0 text-gray-400"/>
+              <li className="flex items-center justify-between mb-0"><li className="font-black text-[1.5rem]">Makeup</li><i className="fa-solid fa-greater-than"></i></li><hr className="m-0 p-0 text-gray-400"/>
+              <li className="flex items-center justify-between mb-0"><li className="font-black text-[1.5rem]">Hands & Feet</li><i className="fa-solid fa-greater-than"></i></li><hr className="m-0 p-0 text-gray-400"/>
+              <li className="flex items-center justify-between mb-0"><li className="font-black text-[1.5rem]">Services - Men</li><i className="fa-solid fa-greater-than"></i></li><hr className="m-0 p-0 text-gray-400"/>
+              <li className="flex items-center justify-between mb-0"><li className="font-black text-[1.5rem]">Services - Women</li><i className="fa-solid fa-greater-than"></i></li><hr className="m-0 p-0 text-gray-400"/>
             </ul>
           </div>
           <div className="flex gap-x-[20px]">
