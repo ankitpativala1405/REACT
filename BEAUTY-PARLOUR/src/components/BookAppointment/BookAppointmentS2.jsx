@@ -58,18 +58,16 @@ const BookAppointmentS2 = () => {
         </div>
       </section>
       <hr className="border-t-4 border-[rgba(245,240,240,0.7)]" />
-      <section className="bg-[#121111e6]">
-        <div className="container mx-auto">
-        <div className="flex flex-col mx-auto px-20 py-7">
-           <h1 className="text-4xl font-bold mb-4 text-left text-[#F5C2E1] uppercase w-full">
+      <section className="bg-[#121111e6] shadow-lg p-10 mx-auto text-left">
+        <div className="container mx-auto px-20 py-7">
+          <h1 className="text-4xl font-black text-[#F5C2E1] mb-6 tracking-tight uppercase">
             Cost
           </h1>
-          <p className="text-[18px] text-gray-300 max-w-xl text-justify pt-4 w-full text-nowrap">
+          <p className="text-gray-300 text-lg leading-relaxed text-justify">
             We at Lakmē Salon know that weddings can be an expensive affair. So,
             to ensure that you don’t burn a hole in your pocket, our bridal
             services start from INR 15,000 only.
           </p>
-        </div>       
         </div>
       </section>
     </>
