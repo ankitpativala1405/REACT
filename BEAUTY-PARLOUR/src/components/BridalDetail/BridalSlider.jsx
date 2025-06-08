@@ -1,72 +1,57 @@
-// import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useState, useEffect } from "react";
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/scrollbar';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+const BridalSlider = () => {
+  const images = [
+    "/public/asset 1.jpeg",
+    "/public/asset 2.jpeg",
+    "/public/asset 3.jpeg",
+    "/public/asset 4.jpeg",
+    "/public/asset 5.jpeg",
+    "/public/asset 6.jpeg",
+    "/public/asset 7.jpeg",
+    "/public/asset 5.jpeg",
+    "/public/asset 6.jpeg",
+    "/public/asset 7.jpeg",
+  ];
 
-// import './styles.css';
+  const [index, setIndex] = useState(0);
 
-// import required modules
-import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
+  const goToSlide = (slideIndex) => {
+    setIndex(slideIndex);
+  };
 
-export default function BridalSlider() {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
     <>
-      <Swiper
-        slidesPerView={4}
-        centeredSlides={false}
-        slidesPerGroupSkip={4}
-        grabCursor={true}
-        keyboard={{
-          enabled: true,
-        }}
-        breakpoints={{
-          769: {
-            slidesPerView: 1,
-            slidesPerGroup: 1,
-          },
-        }}
-        scrollbar={true}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-001.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-002.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-005.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-006.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-007.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-008.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-009.jpg" />
-        </SwiperSlide>
-      </Swiper>
+      <div className="w-full flex justify-around">
+        <div className="bg-black text-white text-center py-10 w-full">
+          <img
+            src={images[index]}
+            alt={`Slide ${index + 1}`}
+            className="mx-auto max-w-[68.50%] h-auto rounded-lg shadow-lg "
+          />
+          <div className="mt-4 flex justify-center gap-4">
+            {images.map((_, slideIndex) => (
+              <button
+                key={slideIndex}
+                className={`w-[10px] h-[10px] mx-1 mt-2 mb-[-10px] rounded-full ${
+                  slideIndex === index ? "bg-[#EB212E]" : "bg-gray-500"
+                }`}
+                onClick={() => goToSlide(slideIndex)}
+                aria-label={`Go to slide ${slideIndex + 1}`}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </>
   );
-}
+};
 
+export default BridalSlider;

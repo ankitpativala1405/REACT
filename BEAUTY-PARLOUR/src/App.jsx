@@ -1,4 +1,5 @@
 import './App.css'
+import BookAppointmentMain from './components/BookAppointment/BookAppointmentMain'
 import BridalMain from './components/BridalDetail/BridalMain'
 import GiftCard from './components/card/GiftCard'
 import Footer from './components/footer/Footer'
@@ -21,7 +22,8 @@ function IndexPage() {
     <Service/>
     <Trending/>
     <GiftCard/> */}
-    <BridalMain/>
+    {/* <BridalMain/> */}
+    <BookAppointmentMain/>
     <Footer/>
     </>
   )
