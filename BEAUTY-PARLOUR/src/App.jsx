@@ -22,8 +22,8 @@ function IndexPage() {
     <Service/>
     <Trending/>
     <GiftCard/> */}
-    {/* <BridalMain/> */}
-    <BookAppointmentMain/>
+    <BridalMain/>
+    {/* <BookAppointmentMain/> */}
     <Footer/>
     </>
   )
