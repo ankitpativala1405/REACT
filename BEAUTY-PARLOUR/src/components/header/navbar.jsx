@@ -21,41 +21,41 @@ const Navbar = () => {
                 <li className="px-4 py-2">
                   <h3 className="font-bold mb-2 hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">Skin</h3>
                   <ul>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Skin Care - Treatments</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Body Care</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Skin Care</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Skin Care - Basics</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Skin Care - Depilation</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;All Skin Services</a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i></a><Link to="/service">&nbsp;&nbsp;Skin Care - Treatments</Link></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Body Care</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Skin Care</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Skin Care - Basics</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Skin Care - Depilation</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;All Skin Services</Link></a></li>
                   </ul>
                 </li>
                 <li className="px-4 py-2">
                   <h3 className="font-bold mb-2 hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">Hair</h3>
                   <ul>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Form</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Hair Care</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Colors</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Styling</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Haircut</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;All Hair Services</a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Form</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Hair Care</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Colors</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Styling</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Haircut</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;All Hair Services</Link></a></li>
                   </ul>
                 </li>
                 <li className="px-4 py-2">
                   <h3 className="font-bold mb-2 hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">Makeup</h3>
                   <ul>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Styling</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Saree Drap</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Makeup</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;All Makeup Services</a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Styling</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Saree Drap</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Makeup</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;All Makeup Services</Link></a></li>
                   </ul>
                 </li>
                 <li className="px-4 py-2">
                   <h3 className="font-bold mb-2 hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">Hands & Feet</h3>
                   <ul>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Hand Care</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Feet Care</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;Nails</a></li>
-                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i>&nbsp;&nbsp;All Hand & Feet Services</a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Hand Care</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Feet Care</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;Nails</Link></a></li>
+                    <li className="hover:text-red-600 px-2 py-1"><a href="#"><i className="fa-regular fa-circle text-[10px]"></i><Link to="/service">&nbsp;&nbsp;All Hand & Feet Services</Link></a></li>
                   </ul>
                 </li>
               </ul>
