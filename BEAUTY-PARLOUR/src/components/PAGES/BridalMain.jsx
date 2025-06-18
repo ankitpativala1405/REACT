@@ -1,7 +1,8 @@
 import React from "react";
-import BridalSection from "./BridalSection";
-import BridalDetail from "./BridalDetail";
-import BridalSlider from "./BridalSlider";
+import BridalSection from "../BridalDetail/BridalSection";
+import BridalDetail from "../BridalDetail/BridalDetail";
+import BridalSlider from "../BridalDetail/BridalSlider";
+
 
 const BridalMain = () => {
   return (

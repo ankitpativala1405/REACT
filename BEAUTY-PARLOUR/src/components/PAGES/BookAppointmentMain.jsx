@@ -1,6 +1,7 @@
 import React from "react";
-import BookAppointmentS1 from "./BookAppointmentS1";
-import BookAppointmentS2 from "./BookAppointmentS2";
+import BookAppointmentS1 from "../BookAppointment/BookAppointmentS1";
+import BookAppointmentS2 from "../BookAppointment/BookAppointmentS2";
+
 
 const BookAppointmentMain = () => {
   return (

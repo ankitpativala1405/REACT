@@ -1,5 +1,6 @@
-import ServiceDetail from "./ServiceDetail";
-import ServiceDetailPart from "./ServiceDetailPart";
+
+import ServiceDetail from "../ServiceDetail/ServiceDetail";
+import ServiceDetailPart from "../ServiceDetail/ServiceDetailPart";
 
 const ServiceDetailMain = () => {
   return (

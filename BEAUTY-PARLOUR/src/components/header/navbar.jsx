@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
       <div className="sticky top-[61px] z-2">
         <div className="w-full flex bg-black h-[55px] items-center justify-around">
           <ul className="flex text-white justify-around gap-15 text-nowrap">
+            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]"><Link to="/">INDEX</Link></a></li>
             <li className="relative group w-full">
               <a href="#" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">
-                SERVICES
+                <Link to="/service">SERVICES</Link>
               </a>
               <ul className="absolute top-[100%] left-0 bg-white text-black min-w-[480px] rounded-md shadow-lg hidden group-hover:flex flex-row transition-all duration-500 z-30">
                 <li className="px-4 py-2">
@@ -57,11 +60,11 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">BRIDAL</a></li>
+            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]"><Link to="/bridal">BRIDAL</Link></a></li>
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">SHOP PRODUCTS</a></li>
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">RUNWAY REWARDS</a></li>
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">OFFERS</a></li>
-            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">BOOK APPOINTMENT</a></li>
+            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]"><Link to="/bookappointment">BOOK APPOINTMENT</Link></a></li>
             <li className="w-full"><span className="text-red-700">|</span> &nbsp;&nbsp;&nbsp; <a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">BECOME A PARTNER</a>
             </li>
           </ul>
