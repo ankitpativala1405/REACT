@@ -63,7 +63,7 @@ const Navbar = () => {
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]"><Link to="/bridal">BRIDAL</Link></a></li>
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">SHOP PRODUCTS</a></li>
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">RUNWAY REWARDS</a></li>
-            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">OFFERS</a></li>
+            <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]"><Link to="/offer">OFFERS</Link></a></li>
             <li><a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]"><Link to="/bookappointment">BOOK APPOINTMENT</Link></a></li>
             <li className="w-full"><span className="text-red-700">|</span> &nbsp;&nbsp;&nbsp; <a href="" className="hover:text-red-600 border-b-2 border-transparent hover:border-red-600 pb-1 transition-all duration-[1000ms]">BECOME A PARTNER</a>
             </li>

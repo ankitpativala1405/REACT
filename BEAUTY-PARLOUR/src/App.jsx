@@ -13,12 +13,12 @@ function AppIndex() {
     <>
     <Header/>
     <Navbar/>
-    {/* <AllRoutes/> */}
+    <AllRoutes/>
     {/* <IndexPage/> */}
     {/* <ServiceDetailMain/> */}
     {/* <BridalMain/> */}
     {/* <BookAppointmentMain/> */}
-    <Offer/>
+    {/* <Offer/> */}
     <Footer/>
     </>
   )
